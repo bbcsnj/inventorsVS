@@ -1,0 +1,82 @@
+body{
+  background-color: black;
+  color: #463F3A;
+  font-family: "Cookie", Arial, sans-serif;
+  font-size: 1.6em;
+  margin: 0;
+  padding: 0;
+}
+#wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+main {
+  background-color: #F4F3EE;
+  border: solid .01px black;
+  padding: 15px;
+}
+main img {
+  padding: 5px;
+}
+.einstein {
+  background-color: #BCB8B1;
+  text-align: center;
+  border: solid 0.1px black;
+  background-image: url(https://imageio.forbes.com/blogs-images/startswithabang/files/2016/05/Einstein-at-the-bat.jpeg?format=jpg&width=1200);
+  background-size: cover;
+  background-position: 30% 50%;
+}
+.edison {
+  background-color: #BCB8B1;
+  text-align: center;
+  border: solid 0.1px black;
+  background-image: url(https://images.immediate.co.uk/production/volatile/sites/4/2016/07/GettyImages-5383490532-33078cd.jpg?quality=90&crop=4px,18px,931px,401px&resize=940,400);
+  background-size: cover;
+  background-position: 30% 20%;
+}
+.tesla {
+  background-color: #BCB8B1;
+  text-align: center;
+  border: solid 0.1px black;
+  background-image: url(https://historybyday.com/wp-content/uploads/2021/03/NikolaTesla04.jpg);
+  background-size: cover;
+  background-position: 60% 20%;
+}
+header{
+  background-color: #BCB8B1;
+  text-align: center;
+  border: solid 0.1px black;
+  background-image: url(https://imageio.forbes.com/blogs-images/startswithabang/files/2016/05/Einstein-at-the-bat.jpeg?format=jpg&width=1200);
+  background-size: cover;
+  background-position: 30% 50%;
+}
+h1 { 
+  line-height: 200%;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+h3 {
+  line-height: 0%;
+}
+nav { 
+  font-weight: bold;
+  text-align: center;
+  background-color: #dcdcdc;
+  border-top: solid .01px black;
+  border-bottom: solid .01px black;  
+}
+nav a { 
+  text-decoration: none;
+}
+a:link {color: #27282e;}
+a:visited {color: #27282e;}
+a:hover {color: white;
+text-shadow: 1px 1px 2px black}
+.studio { font-style: italic;}
+footer {
+  background-color: #BCB8B1;
+font-size: .60em;
+font-style: italic;
+  text-align: center;
+}
