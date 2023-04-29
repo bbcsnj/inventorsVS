@@ -26,7 +26,7 @@ main img {
   background-color: #BCB8B1;
   text-align: center;
   border: solid 0.1px black;
-  background-image: url(https://imageio.forbes.com/blogs-images/startswithabang/files/2016/05/Einstein-at-the-bat.jpeg?format=jpg&width=1200);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(https://imageio.forbes.com/blogs-images/startswithabang/files/2016/05/Einstein-at-the-bat.jpeg?format=jpg&width=1200);
   background-size: cover;
   background-position: 30% 50%;
 }
@@ -46,18 +46,20 @@ main img {
   background-size: cover;
   background-position: 60% 20%;
 }
-header{
+/*header{
   background-color: #BCB8B1;
   text-align: center;
   border: solid 0.1px black;
   background-image: url(https://imageio.forbes.com/blogs-images/startswithabang/files/2016/05/Einstein-at-the-bat.jpeg?format=jpg&width=1200);
   background-size: cover;
   background-position: 30% 50%;
-}
+}*/
 h1 { 
   line-height: 200%;
   color: white;
-  text-shadow: 3px 3px 3px black;
+  /*text-shadow: 5px 5px 5px black;*/
+  text-shadow: 3px 3px 2px black, 0 0 0.5em gray, 0 0 0.2em lightgray; 
+  font-size: 250%;
 }
 h3 {
   line-height: 0%;
