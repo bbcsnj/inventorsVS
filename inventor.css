@@ -22,6 +22,7 @@ main {
 }
 main img {
   padding: 5px;
+  margin: 5px;
 }
 .einstein {
   background-color: #BCB8B1;
