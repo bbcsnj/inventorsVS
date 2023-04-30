@@ -18,6 +18,7 @@ main {
   background-color: #F4F3EE;
   border: solid .01px black;
   padding: 15px;
+  height: 100%;  
 }
 main img {
   padding: 5px;
