@@ -21,8 +21,8 @@ main {
   height: 100%;  
 }
 main img {
-  padding: 5px;
-  margin: 5px;
+  padding: 10px;
+  margin: 10px;
   float: right;
 }
 .einstein {
